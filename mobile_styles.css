@@ -1,0 +1,14 @@
+/* Mobile Specifier */
+@media (max-width: 900px) {
+    
+/* Header */
+header {
+    background-size: contain;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+}
+
+}
