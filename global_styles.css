@@ -91,7 +91,7 @@ a {
 /* Header */
 header {
     min-width: 400px;
-    height: 100vh;
+    height: 100dvh;
     margin: 0px;
 
     background-color: #0b0012;
@@ -122,7 +122,7 @@ header {
 }
 
 header section {
-    padding-top: 25vh;
+    padding-top: 25dvh;
 
     display: flex;
     flex-direction: column;
