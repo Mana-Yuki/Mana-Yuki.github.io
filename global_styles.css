@@ -119,7 +119,7 @@ header {
         50% 90%,
         var(--front-clouds) 85%,
         var(--back-clouds) 80%,
-        50% 2%;
+        50% 0%;
     
     background-size: 600px;
 
@@ -169,7 +169,7 @@ h2 {
 }
 
 main section {
-    padding: 20px;
+    padding: 10dvh;
 }
 
 /* About Me */
