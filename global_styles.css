@@ -1,3 +1,10 @@
+/* Vars */
+:root {
+    --front-clouds: 0;
+    --back-clouds: 0;
+}
+
+
 /* Fonts */
 .anonymous-pro-regular {
   font-family: "Anonymous Pro", monospace;
@@ -35,6 +42,14 @@ body {
     gap: 0; /* Ensures no space between structural items */
 }
 
+a {
+    color: #fb922b;
+}
+
+.accent {
+    color: #c2ffea;
+}
+
 
 /* Top bar navigation */
 .global_nav {
@@ -63,6 +78,8 @@ body {
     color: #0b0012;
     text-decoration: none;
     border-bottom: 2px solid #2f3d66;
+
+    font-size: 1.2rem;
 }
 .global_nav ul a:hover {
     color: #2f3d66;
@@ -71,26 +88,53 @@ body {
 
 /* Header */
 header {
+    min-width: 400px;
+    height: 100vh;
     margin: 0px;
-    /* padding: 20px; */
 
-    background-color: #2f3d66;
+    background-color: #0b0012;
     
-    background: url("assets/images/Mountains.png") repeat-x center;
-    background-size: contain;
+    background-image:
+        url("assets/images/header_background/FrontTrees.png"),
+        url("assets/images/header_background/BackTrees.png"),
+        url("assets/images/header_background/Mounds.png"),
+        url("assets/images/header_background/FrontClouds.png"),
+        url("assets/images/header_background/BackClouds.png"),
+        url("assets/images/header_background/Stars.png");
+    
+    background-attachment: local;
+    background-repeat: repeat-x;
+
+    background-position: 
+        50% 100%,
+        50% 95%,
+        50% 90%,
+        var(--front-clouds) 85%,
+        var(--back-clouds) 80%,
+        50% 2%;
+    
+    background-size: 600px;
 
     color: #e6ffec;
 
 }
 
 header section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 25vh;
 
     display: flex;
+    flex-direction: column;
 
     align-items: center;
     justify-content: center;
+}
+
+.title {
+    font-size: 4rem;
+    margin: 0px;
+}
+.subtitle {
+    font-size: 1.5rem;
 }
 
 
@@ -102,4 +146,40 @@ main {
     background-color: #2f3d66;
 
     color: #e6ffec;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+main section {
+    padding: 20px;
+}
+
+/* About Me */
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#about p.border_left {
+    width: 30px;
+    text-align: right;
+}
+#about p.border_right {
+    width: 30px;
+    text-align: left;
+}
+
+
+#about p {
+    width: 600px;
 }
