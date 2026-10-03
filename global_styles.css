@@ -63,6 +63,8 @@ a {
     background-color: #e6ffec;
     padding: 10px;
     margin: 0px;
+
+    scroll-behavior: smooth;
 }
 
 .global_nav ul {
@@ -179,7 +181,7 @@ main section {
     text-align: left;
 }
 
-
 #about p {
     width: 600px;
 }
+
