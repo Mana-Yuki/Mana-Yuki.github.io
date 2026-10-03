@@ -11,4 +11,12 @@ header div {
     flex-direction: column;
 }
 
+/* Main Content */
+#about p.border_left {
+    visibility: collapse;
+}
+#about p.border_right {
+    visibility: collapse;
+}
+
 }

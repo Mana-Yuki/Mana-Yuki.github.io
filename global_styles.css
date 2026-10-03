@@ -187,14 +187,16 @@ main section {
 
 #about p.border_left {
     width: 30px;
+    white-space: pre-wrap;
     text-align: right;
 }
 #about p.border_right {
     width: 30px;
+    white-space: pre-wrap;
     text-align: left;
 }
 
 #about p {
-    width: 600px;
+    max-width: 600px;
 }
 
