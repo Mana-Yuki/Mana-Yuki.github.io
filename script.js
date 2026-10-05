@@ -1,8 +1,8 @@
 const root = document.documentElement;
 const backgroundImg = document.getElementById("top");
 
-const frontCloudRate = 0.5;
-const backCloudRate = 0.2;
+const frontCloudRate = 0.05;
+const backCloudRate = 0.02;
 
 setInterval(moveClouds, 10);
 
@@ -13,13 +13,13 @@ function moveClouds() {
     frontClouds += frontCloudRate;
     backClouds += backCloudRate;
 
-    if (frontClouds >= 900) {
-        frontClouds = 0;
-    }
-    if (backClouds >= 900) {
-        backClouds = 0;
-    }
+    // if (frontClouds >= 100) {
+    //     frontClouds = 0;
+    // }
+    // if (backClouds >= 100) {
+    //     backClouds = 0;
+    // }
 
-    root.style.setProperty('--front-clouds', frontClouds + "px");
-    root.style.setProperty('--back-clouds', backClouds + "px");
+    root.style.setProperty('--front-clouds', frontClouds + "vw");
+    root.style.setProperty('--back-clouds', backClouds + "vw");
 }

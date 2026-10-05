@@ -1,7 +1,7 @@
 /* Vars */
 :root {
-    --front-clouds: 0;
-    --back-clouds: 0;
+    --front-clouds: 0vw;
+    --back-clouds: 0vw;
 }
 
 /* Fonts */
@@ -188,12 +188,12 @@ main section {
 }
 
 #about p.border_left {
-    width: 30px;
+    width: 3rem;
     white-space: pre-wrap;
     text-align: right;
 }
 #about p.border_right {
-    width: 30px;
+    width: 3rem;
     white-space: pre-wrap;
     text-align: left;
 }
