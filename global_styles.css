@@ -43,6 +43,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0; /* Ensures no space between structural items */
+
+    overscroll-behavior-y: none;
 }
 
 a {
