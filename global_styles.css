@@ -1,7 +1,7 @@
 /* Vars */
 :root {
-    --front-clouds: 0vw;
-    --back-clouds: 0vw;
+    --front-clouds: 0px;
+    --back-clouds: 0px;
 }
 
 /* Fonts */
@@ -100,7 +100,7 @@ a {
 
 /* Header */
 header {
-    height: 100dvh;
+    height: 100vh;
     margin: 0;
 
     background-color: #0b0012;

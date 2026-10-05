@@ -1,8 +1,8 @@
 const root = document.documentElement;
 const backgroundImg = document.getElementById("top");
 
-const frontCloudRate = 0.05;
-const backCloudRate = 0.02;
+const frontCloudRate = 0.5;
+const backCloudRate = 0.2;
 
 setInterval(moveClouds, 10);
 
@@ -20,6 +20,6 @@ function moveClouds() {
     //     backClouds = 0;
     // }
 
-    root.style.setProperty('--front-clouds', frontClouds + "vw");
-    root.style.setProperty('--back-clouds', backClouds + "vw");
+    root.style.setProperty('--front-clouds', frontClouds + "px");
+    root.style.setProperty('--back-clouds', backClouds + "px");
 }
