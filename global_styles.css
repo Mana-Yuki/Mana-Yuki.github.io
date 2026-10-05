@@ -162,8 +162,8 @@ h2 {
 }
 
 main section {
-    padding-top: 10dvh;
-    max-width: 80%;
+    padding-top: 20dvh;
+    max-width: 95%;
 
     justify-self: center;
 }
@@ -184,7 +184,7 @@ main section {
     gap: 20px;
 }    
 
-/* #about p {
-    grid-area: info;
-} */
+#about p {
+    max-width: 1000px;
+}
 
