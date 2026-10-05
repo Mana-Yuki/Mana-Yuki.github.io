@@ -13,10 +13,10 @@ function moveClouds() {
     frontClouds += frontCloudRate;
     backClouds += backCloudRate;
 
-    if (frontClouds >= 600) {
+    if (frontClouds >= 900) {
         frontClouds = 0;
     }
-    if (backClouds >= 600) {
+    if (backClouds >= 900) {
         backClouds = 0;
     }
 
