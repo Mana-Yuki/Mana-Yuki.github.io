@@ -11,9 +11,16 @@ header div {
     flex-direction: column;
 }
 
-/* main */
+
+/* Main */
 main section {
     max-width: 95%;
+}
+
+
+/* Project Work */
+.card .info {
+    flex-direction: column;
 }
 
 }

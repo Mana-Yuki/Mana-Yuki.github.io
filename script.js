@@ -13,13 +13,6 @@ function moveClouds() {
     frontClouds += frontCloudRate;
     backClouds += backCloudRate;
 
-    // if (frontClouds >= 100) {
-    //     frontClouds = 0;
-    // }
-    // if (backClouds >= 100) {
-    //     backClouds = 0;
-    // }
-
     root.style.setProperty('--front-clouds', frontClouds + "px");
     root.style.setProperty('--back-clouds', backClouds + "px");
 }
