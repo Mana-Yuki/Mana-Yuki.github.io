@@ -19,8 +19,29 @@ main section {
 
 
 /* Project Work */
+.project_grid {
+    display: grid;
+    gap: 1rem;
+
+    grid-template-columns: 1fr;
+}
+
 .card .info {
     flex-direction: column;
+}
+
+.game .info p{
+    width: 100%;
+}
+.game .info img {
+    width: 100%;
+}
+
+.audio img {
+    width: 100%;
+}
+.audio iframe {
+    width: 100%;
 }
 
 }

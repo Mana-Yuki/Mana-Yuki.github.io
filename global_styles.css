@@ -44,6 +44,11 @@ body {
 /* Special formatting */
 a {
     color: #fb922b;
+
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 2px solid #fb922b;
 }
 
 .accent {
@@ -196,18 +201,25 @@ main section {
 .project_grid {
     display: grid;
     gap: 1rem;
+
+    grid-template-columns: 1fr 1fr;
 }
 
 .card {
     background-color: #e6ffec;
     color: #0b0012;
 
-    padding: 0.5rem;
+    
+    
 }
 
 .card .info {
     display: flex;
     flex-direction: row;
+
+    gap: 0.2;
+
+    padding: 0.5rem;
 }
 
 /* .card:hover {
@@ -215,13 +227,46 @@ main section {
 } */
 
 .card h4 {
-    color: #2f3d66;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0.5rem;
+
+    background-color: #c2ffea;
 }
+
 .card p {
     text-align: left;
 }
 
 
 /* - Games */
+.game .info {
+    max-width: 611px;
+    
+}
+.game .info p{
+    width: 80%;
+}
+.game .info img {
+    align-self: center;
+    width: 30%;
+}
 
 /* - Audio */
+.audio img {
+    width: 50%;
+    height: 300px;
+}
+
+.audio iframe {
+    border: 0; 
+    width: 50%; 
+    height: 300px;
+}
+
+/* Footer */
+footer {
+    padding: 1rem;
+    background-color: #2f3d66;
+    text-align: center;
+}
