@@ -196,6 +196,20 @@ main section {
     max-width: 1000px;
 }
 
+#about ul {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.25rem;
+
+    gap: 1rem;
+}
+
 
 /* Project Work */
 .project_grid {
@@ -208,9 +222,6 @@ main section {
 .card {
     background-color: #e6ffec;
     color: #0b0012;
-
-    
-    
 }
 
 .card .info {
