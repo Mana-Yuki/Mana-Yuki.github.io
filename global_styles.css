@@ -256,11 +256,11 @@ main section {
     
 }
 .game .info p{
-    width: 80%;
+    width: 60%;
 }
 .game .info img {
     align-self: center;
-    width: 30%;
+    width: 40%;
 }
 
 /* - Audio */
