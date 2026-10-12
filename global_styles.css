@@ -227,6 +227,7 @@ main section {
 .card .info {
     display: flex;
     flex-direction: row;
+    align-self: center;
 
     gap: 0.2;
 
