@@ -254,14 +254,14 @@ main section {
 /* - Games */
 .game .info {
     max-width: 611px;
-    
+    flex-direction: column-reverse;
 }
+
 .game .info p{
-    width: 60%;
+    width: 100%;
 }
 .game .info img {
-    align-self: center;
-    width: 40%;
+    width: 100%;
 }
 
 /* - Audio */

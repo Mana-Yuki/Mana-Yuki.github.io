@@ -30,6 +30,9 @@ main section {
     flex-direction: column;
 }
 
+.game .info {
+    flex-direction: column-reverse;
+}
 .game .info p{
     width: 100%;
 }
