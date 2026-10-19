@@ -23,6 +23,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#games">Games</a></li>
             <li><a href="#audio">Audio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     
@@ -60,7 +61,7 @@
                     I enjoy building retro styled games, interesting software, and composing soundtracks for all sorts of projects.
                     I also like to dabble in pixel graphics and other facets of game development!
                     <br><br>
-                    Obsessed with cats, chiptune trackers, ASCII, metroidvanias, programming, color palettes, and solving problems.
+                    Obsessed with cats, chiptune trackers, ASCII, metroidvanias, programming, puzzles, and color palettes.
                 </p>
 
                 <pre>|
@@ -86,33 +87,44 @@
             <p>A showcase of the games I've worked on!</p>
             <div class="project_grid">
                 <article class="game card">
-                    <h4><a href="https://drews128.itch.io/forecaster">- Forecaster -</a></h4>
+                    <h4><a href="https://drews128.itch.io/grandma-gretchins-cookie-hustle">Grandma Gretchin's Cookie Hustle</a></h4>
+                    <div class="info">
+                        <p>
+                            A short arcade game about leading grandma gretchin around town to sell her cookies.
+                            <br><br><em>Made in 48-hours for the GAMED October 2026 Game Jam.</em>
+                        </p>
+                        <img alt="Some gif showing the game" src="">
+                    </div>
+                </article>
+                
+                <article class="game card">
+                    <h4><a href="https://drews128.itch.io/forecaster">Forecaster</a></h4>
                     <div class="info">
                         <p>
                             A rogue-like deckbuilder where the current weather and forecast impacts your cards.
-                            <br><br><em>Made in 48-hours for the GAMED Spring 2026 Game Jam.</em>
+                            <br><br><em>Made in 48-hours for the GAMED April 2026 Game Jam.</em>
                         </p>
                         <img alt="Some gif showing the game" src="assets/images/games/Forecaster.gif">
                     </div>
                 </article>
 
                 <article class="game card">
-                    <h4><a href="https://manachanamus.itch.io/knifetogunfight">- Knife to a Gunfight -</a></h4>
+                    <h4><a href="https://manachanamus.itch.io/knifetogunfight">Knife to a Gunfight</a></h4>
                     <div class="info">
                         <p>
-                            <em>And for some reason, bringing a knife to a gun fight seemed like the greatest idea.</em><br><br>
-                            An action game where you have to eliminate all your enemies using your knife, but everyone has guns!
-                            <br><br><em>Made in 48-hours for the GAMED Fall 2024 Game Jam.</em>
+                            An action game where you have to get close and eliminate all your enemies using your knife, but everyone else has guns!
+                            <br><br><em>Made in 48-hours for the GAMED November 2024 Game Jam.</em>
                         </p>
                         <img alt="Some gif showing the game" src="assets/images/games/Knife.gif">
                     </div>
                 </article>
 
                 <article class="game card">
-                    <h4><a href="https://drews128.itch.io/the-legend-of-eugor">- Eugor -</a></h4>
+                    <h4><a href="https://drews128.itch.io/the-legend-of-eugor">Eugor</a></h4>
                     <div class="info">
                         <p>
                             A topdown wave survival game where taking damage gives you "upgrades".
+                            <br><br><em>Made in 48-hours for the GAMED November 2025 Game Jam.</em>
                         </p>
                         <img alt="Some gif showing the game">
                     </div>
@@ -156,6 +168,35 @@
                 </article>
             </div>
         </section>
+
+        <section id="contact">
+            <h2>-~- Contact -~-</h2>
+            <p>Want to connect? Or just have something to say? Shoot me an email!</p>
+
+            <form class="contact_form" action="mailto:brandtkain5@gmail.com" method="post" enctype="text/plain">
+                <div>
+                    <label for="name">-- Name --</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div>
+                    <label for="mail">-- E-mail --</label>
+                    <input type="email" name="mail" required>
+                </div>
+                
+                <div>
+                    <label for="comment">-- Comment --</label>
+                    <textarea id="message" name="message" cols=40 required></textarea>
+                </div>
+                
+                <div>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </section>
+
+        <section></section>
     </main>
 
     <!-- Footer -->

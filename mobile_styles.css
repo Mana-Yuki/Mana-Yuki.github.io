@@ -11,6 +11,19 @@ header div {
     flex-direction: column;
 }
 
+.title {
+    font-size: 3rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+}
+
+/* Navigation */
+.global_nav {
+    justify-content: center;
+}
+
 
 /* Main */
 main section {

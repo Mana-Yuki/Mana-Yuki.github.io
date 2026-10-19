@@ -75,7 +75,7 @@ a:hover {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
-    gap: 1.875rem;
+    gap: 1.2rem;
 
     padding: 0;
     margin: 0;
@@ -222,6 +222,7 @@ main section {
 .card {
     background-color: #e6ffec;
     color: #0b0012;
+    box-shadow: 10px 10px #0b0012;
 }
 
 .card .info {
@@ -274,6 +275,27 @@ main section {
     border: 0; 
     width: 50%; 
     height: 300px;
+}
+
+/* Contact Form */
+.contact_form {
+    background-color: #e6ffec;
+    color: #0b0012;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    box-shadow: 10px 10px #0b0012;
+}
+
+.contact_form label {
+    display: block;
+}
+
+.contact_form input {
+    font: inherit;
 }
 
 /* Footer */
